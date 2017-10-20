@@ -1,0 +1,109 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 60px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+footer {
+	padding-bottom: 20px;
+}
+
+.btn-carosel {
+	padding: 5px 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	font-weight: strong;
+	line-height: 1.51;  
+	border-radius: 6px;
+	width: 160px;
+	border: 2px solid #ffffff;
+	color: rgba(255, 255, 255, 1);
+	background: rgba(0, 0, 0, .4);
+}
+
+
+@media (max-width: 850px) {
+	.btn-carosel {
+		font-size: 20px;
+		line-height: 1.01;
+		width: 150px;
+		margin-right: 5px;
+	}
+}
+
+.btn-carosel:hover, .btn-carosel:focus, .btn-carosel.focus, 
+    .btn-carosel:active, .btn-carosel.active, .btn-carosel:visited,
+    .btn-carosel:active:hover, .btn-carosel.active:hover {
+	background: rgba(0, 0, 0, 1);
+	color: #ffffff;
+}
+
+.pull-right {
+	padding-left: 5px !important
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 20px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.caption h4 {
+    white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333333;
+}
+
+#login-dp {
+	min-width: 250px;
+	padding: 15px;
+	overflow: hidden;
+}
+.help-block { font-size: 12px; }
+
+@media(max-width: 768px) {
+	#login-dp { color: #ffffff; }
+}
+
+.nav-colorful > li {
+	padding: 5px 0;
+	margin-bottom: 10px;
+}
